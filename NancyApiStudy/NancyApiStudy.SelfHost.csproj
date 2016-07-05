@@ -51,15 +51,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entities\Band.cs" />
-    <Compile Include="Entities\Member.cs" />
-    <Compile Include="Modules\BandModule.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NancyApiStudy.Modules\NancyApiStudy.Modules.csproj">
+      <Project>{a42e5218-a8bc-41c4-9769-c1086c4f9849}</Project>
+      <Name>NancyApiStudy.Modules</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

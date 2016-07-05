@@ -1,7 +1,7 @@
 ﻿using Nancy.Hosting.Self;
 using System;
 
-namespace NancyApiStudy {
+namespace NancyApiStudy.SelfHost {
     class Program {
         static void Main(string[] args) {
             var uri = new Uri("http://localhost:1234");

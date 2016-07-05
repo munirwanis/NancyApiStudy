@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NancyApiStudy", "NancyApiStudy\NancyApiStudy.csproj", "{40973483-B68A-4DAD-B4AB-0C6A3A9A0B24}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NancyApiStudy.SelfHost", "NancyApiStudy\NancyApiStudy.SelfHost.csproj", "{40973483-B68A-4DAD-B4AB-0C6A3A9A0B24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NancyApiStudy.Modules", "NancyApiStudy.Modules\NancyApiStudy.Modules.csproj", "{A42E5218-A8BC-41C4-9769-C1086C4F9849}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{40973483-B68A-4DAD-B4AB-0C6A3A9A0B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40973483-B68A-4DAD-B4AB-0C6A3A9A0B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40973483-B68A-4DAD-B4AB-0C6A3A9A0B24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A42E5218-A8BC-41C4-9769-C1086C4F9849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A42E5218-A8BC-41C4-9769-C1086C4F9849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A42E5218-A8BC-41C4-9769-C1086C4F9849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A42E5218-A8BC-41C4-9769-C1086C4F9849}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
