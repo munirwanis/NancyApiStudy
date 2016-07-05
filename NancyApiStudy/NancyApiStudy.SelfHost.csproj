@@ -7,8 +7,8 @@
     <ProjectGuid>{40973483-B68A-4DAD-B4AB-0C6A3A9A0B24}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NancyApiStudy</RootNamespace>
-    <AssemblyName>NancyApiStudy</AssemblyName>
+    <RootNamespace>NancyApiStudy.SelfHost</RootNamespace>
+    <AssemblyName>NancyApiStudy.SelfHost</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
